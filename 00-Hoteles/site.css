@@ -1,0 +1,50 @@
+h2 {
+    font-size: xx-large;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    gap: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.item-container {
+    border: 1px solid #333333;
+    padding: 10px;
+    gap: 5px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25%);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.item-name {
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+.item-description {
+    font-size: medium;
+    text-transform: lowercase;
+}
+
+
+.item-phone {
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold; 
+    white-space: nowrap;
+}
+
+.item-icons {
+    font-size: xx-large;
+    font-weight: bold;
+    white-space: nowrap;
+}
