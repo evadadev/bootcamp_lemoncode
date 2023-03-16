@@ -1,0 +1,15 @@
+{
+  "name": "sesion-playground",
+  "version": "1.0.0",
+  "description": "playground de ejemplo del módulo",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eva",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.4"
+  }
+}
